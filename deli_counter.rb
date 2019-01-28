@@ -13,7 +13,8 @@ end
 
 def take_a_number(array, name)
   array << name
-  puts "Welcome, #{name}. You are number #{array[0]} in line."
+  array.each_with do |name, index|
+  puts "Welcome, #{name}. You are number 1 in line."
 end
 
 def now_serving(array)
